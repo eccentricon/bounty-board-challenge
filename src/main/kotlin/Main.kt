@@ -10,9 +10,11 @@ fun main() {
     var playerLevel = 4
     println(playerLevel)
 
+    // Challenge: hasSteed
     val hasSteed = false
     println("hasSteed: $hasSteed")
 
+    // Challenge: The Unicorn's Horn
     val pubName = "The Unicorn's Horn"
     val publicanOnDuty = "(unnamed)"
     val playerGold = 50.0
@@ -21,6 +23,9 @@ fun main() {
     println("pubName: $pubName, \npublicanOnDuty: $publicanOnDuty, " +
             "\nplayerGold: $playerGold," +
             "\npubDrinkMenu: $pubDrinkMenu")
+
+    // Challenge: Magic Mirror
+    println("The magic mirror shows \"${HERO_NAME.reversed()}\"")
 
     println("The hero embarks on her journey to locate the enchanted sword.")
     playerLevel += 1
