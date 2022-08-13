@@ -10,6 +10,9 @@ fun main() {
     var playerLevel = 4
     println(playerLevel)
 
+    var hasSteed = false
+    println("hasSteed: $hasSteed")
+
     println("The hero embarks on her journey to locate the enchanted sword.")
     playerLevel += 1
     println(playerLevel)
