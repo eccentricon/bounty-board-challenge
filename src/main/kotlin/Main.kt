@@ -10,8 +10,17 @@ fun main() {
     var playerLevel = 4
     println(playerLevel)
 
-    var hasSteed = false
+    val hasSteed = false
     println("hasSteed: $hasSteed")
+
+    val pubName = "The Unicorn's Horn"
+    val publicanOnDuty = "(unnamed)"
+    val playerGold = 50.0
+    val pubDrinkMenu = setOf("mead", "wine", "LaCroix")
+
+    println("pubName: $pubName, \npublicanOnDuty: $publicanOnDuty, " +
+            "\nplayerGold: $playerGold," +
+            "\npubDrinkMenu: $pubDrinkMenu")
 
     println("The hero embarks on her journey to locate the enchanted sword.")
     playerLevel += 1
